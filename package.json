@@ -1,0 +1,11 @@
+{
+  "name": "binayak-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A local, buildless personal portfolio preserving the original visual identity and typography.",
+  "scripts": {
+    "check": "python3 scripts/check.py && node --check js/portfolio.js",
+    "build": "python3 scripts/build.py",
+    "dev": "python3 scripts/preview.py"
+  }
+}

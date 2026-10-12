@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141416">
+  <meta name="description" content="Binayak Gurubacharya is a Computer Science and Data Science student at Augustana College, building games, web and mobile applications, and interactive systems.">
+  <title>Binayak Gurubacharya · Software & a creative streak</title>
+  <link rel="icon" href="images/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/poppins/poppins-semibold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/portfolio.css?v=d8262220940c">
+  <script src="js/portfolio.js?v=fd935b30347c" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Ukiyo — Binayak, back to top">ukiyo<span class="brand-dot">.</span><span class="brand-caption">BINAYAK GURUBACHARYA</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true">＋</span></button>
+      <nav id="main-nav" aria-label="Main navigation">
+        <a href="#work">Selected work</a><a href="#about">About</a><a href="#journey">Experience</a><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero" id="intro" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="little-line"></span> HELLO, GOOD PEOPLE.</p>
+          <h1 id="hero-title">Binayak<br>Gurubacharya<span class="accent">.</span></h1>
+          <p class="hero-serif">Software, systems &amp; a creative streak.</p>
+          <p class="hero-description">I’m a Computer Science &amp; Data Science student at Augustana College. I build games, web and mobile applications, and the systems that connect them.</p>
+          <div class="actions"><a class="button button-pink" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link light-link" href="downloads/Binayak_Gurubacharya_Resume.pdf">View resume <span class="file-type">PDF</span><span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-bottom"><p>AUGUSTANA COLLEGE <span>/</span> EXPECTED MAY 2027</p><a href="#work">SELECTED PROJECTS <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Software,<br><em>in practice.</em></h2></div><p class="section-description">Games, mobile apps, and connected systems. Here’s what I built and how each project works.</p></div>
+        <article class="project project-featured" aria-labelledby="radio-title">
+          <div class="project-visual radio-visual" role="img" aria-label="Concept diagram: a participant sends a message to a server, which broadcasts it to a chatroom and a Gemini bot.">
+            <div class="visual-top"><span>TRANSMIT / RECEIVE</span><span class="signal-dot"></span></div>
+            <div class="radio-rings"><span></span><span></span><span></span><div class="radio-core">CQ<span>CALLING ALL STATIONS</span></div></div>
+            <div class="signal-path"><span>YOU</span><b aria-hidden="true">↔</b><span>SERVER</span><b aria-hidden="true">↔</b><span>ROOM + BOT</span></div>
+            <span class="visual-caption">MESSAGING FLOW · CONCEPT DIAGRAM</span>
+          </div>
+          <div class="project-copy">
+            <p class="project-kicker">01 / DESKTOP APPLICATION · TEAM PROJECT</p>
+            <h3 id="radio-title">Educational HAM<br>Radio Simulator</h3>
+            <p>A desktop application for practicing amateur radio communication through shared chatrooms.</p>
+            <div class="contribution"><h4>My contribution</h4><p>I built the server-side messaging for real-time conversations and room broadcasts, and integrated a Gemini chatbot that participates in the chat.</p></div>
+            <ul class="tags" aria-label="Technologies"><li>Java</li><li>JavaFX</li><li>Gemini API</li></ul>
+            <a class="text-link" href="https://github.com/AugustanaCSC305Fall24/GallinuleRepo" aria-label="View Educational HAM Radio Simulator team repository on GitHub">View team repository <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <div class="project-pair">
+          <article class="project" aria-labelledby="preventia-title">
+            <div class="project-visual preventia-visual" role="img" aria-label="Concept diagram for Preventia: daily tasks, personal progress, and local conditions."><div class="visual-top"><span>PREVENTIA</span><span>SMALL DAILY STEPS</span></div><div class="habit-diagram"><div><span aria-hidden="true">✓</span>Daily tasks</div><div><span aria-hidden="true">↗</span>Personal progress</div><div><span aria-hidden="true">◎</span>Local conditions</div></div><span class="visual-caption">APP FEATURES · CONCEPT DIAGRAM</span></div>
+            <div class="project-copy"><p class="project-kicker">02 / MOBILE APP · THREE-PERSON TEAM</p><h3 id="preventia-title">Preventia</h3><p>A health and fitness app combining daily routines with local weather and air quality. Built with two teammates at Augustana’s hackathon.</p><div class="contribution"><h4>My contribution</h4><p>I implemented Firebase authentication and stat tracking, weather and air-quality trend charts, and Gemini task scoring and suggestions.</p></div><ul class="tags" aria-label="Technologies"><li>Flutter / Dart</li><li>Firebase</li><li>Gemini API</li><li>REST APIs</li></ul><a class="text-link" href="https://github.com/JBinayak/Preventia" aria-label="View Preventia repository on GitHub">View on GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project" aria-labelledby="shooter-title">
+            <div class="project-visual fps-visual" role="img" aria-label="Concept diagram of enemy states in the shooter: patrol, search, and attack."><div class="visual-top"><span>GAMEPLAY SYSTEMS</span><span>UNITY / C#</span></div><div class="state-machine"><span>PATROL</span><i aria-hidden="true">↔</i><span>SEARCH</span><i aria-hidden="true">↔</i><span class="state-active">ATTACK</span></div><div class="code-detail">Physics.Raycast <span>→</span> detect <span>→</span> respond</div><span class="visual-caption">ENEMY BEHAVIOR · CONCEPT DIAGRAM</span></div>
+            <div class="project-copy"><p class="project-kicker">03 / GAME DEVELOPMENT</p><h3 id="shooter-title">3D Shooter</h3><p>A single-player Unity project built around reusable gameplay systems.</p><div class="contribution"><h4>My contribution</h4><p>I built health and ability systems and state-based enemy behavior. The public scripts include raycast shooting, reloading, and patrol/search states.</p></div><p class="scope-note">Repository contains scripts only.</p><ul class="tags" aria-label="Technologies"><li>Unity</li><li>C#</li><li>State machines</li></ul><a class="text-link" href="https://github.com/JBinayak/First-Person-Shooter-3D" aria-label="View 3D Shooter scripts on GitHub">View scripts on GitHub <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <article class="project project-compact" aria-labelledby="memory-title"><div class="memory-visual" role="img" aria-label="Concept illustration of a memory board with one matching pair of cards revealed."><span class="project-kicker">A LITTLE MEMORY WORK</span><div class="memory-tiles" aria-hidden="true"><span>?</span><span class="matched">A</span><span>?</span><span>?</span><span>?</span><span>?</span><span class="matched">A</span><span>?</span></div><span class="visual-caption">CARD MATCHING · CONCEPT ILLUSTRATION</span></div><div class="project-copy"><p class="project-kicker">04 / WEB APPLICATION</p><h3 id="memory-title">Memory Game</h3><p>Find every pair in as few moves as possible.</p><div class="contribution"><h4>My contribution</h4><p>I built the browser game with shuffled cards, move counting, and a one-use reveal hint. The repository also includes a Node.js/Express API and MongoDB model for recording player move counts.</p></div><p class="scope-note">Database configuration is required to run the API.</p><ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>HTML &amp; CSS</li><li>Node.js / Express</li><li>MongoDB</li></ul><a class="text-link" href="https://github.com/JBinayak/Memory_Game" aria-label="View Memory Game repository on GitHub">View on GitHub <span aria-hidden="true">↗</span></a></div></article>
+        <details class="more-projects"><summary>Also built for the browser: Typing Reflex Game <span aria-hidden="true">＋</span></summary><p>A keyboard challenge: finish each word before it leaves the screen. The JavaScript canvas implementation combines randomized words, score-based speed increases, and pause/restart controls.</p><a class="text-link" href="https://github.com/JBinayak/Typing-Reflex-Game">Explore Typing Reflex Game <span aria-hidden="true">↗</span></a></details>
+        <div class="section-end"><p>Explore more of my code.</p><a class="text-link" href="https://github.com/JBinayak">Find me on GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title"><div class="container">
+      <div class="about-grid"><div class="about-intro"><p class="eyebrow">02 / ABOUT ME</p><h2 id="about-title">From visual ideas<br><em>to working software.</em></h2><div class="portrait-line"><img src="images/profile-pic.jpg" alt="Binayak seated at a table." width="280" height="280" loading="lazy"><p>Binayak Gurubacharya<span>THE PERSON BEHIND UKIYO</span></p></div></div><div class="about-copy"><p class="lead">I started with webpages and digital art. Now I work across games, mobile apps, and the software behind them.</p><p>At Augustana College, I’m studying Computer Science and Data Science, with coursework in algorithms, data engineering, and probability and statistics. I’m interested in exploring machine learning and how it can fit into interactive applications.</p><p>My experience includes client websites, Unity development, and teaching English and computer science. Art and design still shape my attention to layout, composition, and detail.</p></div></div>
+      <div class="skills-heading"><h3>What I work with</h3><p>Tools from my projects, internships, and coursework.</p></div>
+      <dl class="skills-grid"><div><dt><span>01</span> Languages</dt><dd>Java · Python · C# · JavaScript · TypeScript · Dart · PHP</dd></div><div><dt><span>02</span> Applications</dt><dd>HTML &amp; CSS · Flutter · JavaFX · Unity · Node.js · Express.js</dd></div><div><dt><span>03</span> Data &amp; foundations</dt><dd>SQL · MongoDB · Firebase<br>Data structures · Algorithms · Data engineering</dd></div></dl>
+    </div></section>
+
+    <section class="section journey-section" id="journey" aria-labelledby="journey-title"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">03 / ALONG THE WAY</p><h2 id="journey-title">Experience<br><em>&amp; education.</em></h2></div><a class="text-link" href="downloads/Binayak_Gurubacharya_Resume.pdf" download>Download my resume <span aria-hidden="true">↓</span><span class="sr-only"> (PDF)</span></a></div>
+      <div class="journey-grid"><div><h3 class="column-title">Experience</h3><ol class="timeline">
+        <li><p class="date">JUN — AUG 2024 <span>KATHMANDU, NEPAL</span></p><h4>Neoteric Nepal</h4><p class="role">Game Developer Intern</p><p>Developed 2D and 3D games in Unity with C#, creating reusable character templates, state machines, and environment interactions. Collaborated on Blender models, textures, and renders.</p></li>
+        <li><p class="date">DEC 2022 — FEB 2023 <span>KATHMANDU, NEPAL</span></p><h4>ConvergeTree</h4><p class="role">Webpage Developer Intern</p><p>Built responsive client webpages and contributed front-end improvements within a software development team, refining layouts around client needs.</p></li>
+        <li><p class="date">JUN — SEP 2022 <span>KATHMANDU, NEPAL</span></p><h4>Saathi Nepal</h4><p class="role">English &amp; Computer Science Tutor</p><p>Taught English reading, writing, and speaking to secondary students, and created a computer science curriculum and QBASIC course for high-school students.</p></li>
+        <li><p class="date">MAR — JUN 2018 / MAR — APR 2020 <span>REMOTE</span></p><h4>PasaPay</h4><p class="role">Front-End Developer Intern</p><p>Implemented front-end features for web and app experiences, with attention to page performance and consistent functionality across platforms.</p></li>
+      </ol></div><div class="education-column"><h3 class="column-title">Education</h3><article class="education-card"><p class="date">EXPECTED MAY 2027</p><h4>Augustana College</h4><p class="role">Bachelor’s degree<br>Computer Science &amp; Data Science</p><p>Rock Island, Illinois</p><div class="coursework"><h5>Selected coursework</h5><p>Algorithms &amp; Computational Theory<br>Data Structures · Software Development<br>Web Programming · Data Engineering<br>Probability &amp; Statistics</p></div></article>
+      <details class="earlier-history"><summary>Schools &amp; A-Level coursework <span aria-hidden="true">＋</span></summary><div><h4>Rato Bangala School</h4><p>A-Levels · July 2021 – June 2023</p><dl class="school-courses"><dt>A-Level courses</dt><dd>Computer Science, Mathematics, Physics</dd><dt>AS-Level courses</dt><dd>English General Paper, Environmental Management</dd></dl><h4>Sanskriti School</h4><p>Grades 1–10 · April 2011 – April 2021</p><h4>Montessori School</h4><p>Preschool · April 2006 – April 2010</p></div></details>
+      </div></div>
+    </div></section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title"><div class="container"><p class="eyebrow">04 / GET IN TOUCH</p><div class="contact-grid"><div><h2 id="contact-title">Something in mind?<br><em>Let’s talk.</em></h2><p>For a project collaboration or an opportunity, send me an email. I’d love to hear what you’re working on.</p><div class="email-row"><a href="mailto:bgurubacharya23@augustana.edu" aria-label="Email Binayak at bgurubacharya23@augustana.edu">bgurubacharya23<wbr>@augustana.edu</a><button id="copy-email" type="button" aria-label="Copy email address" hidden><span class="copy-label">Copy email</span> <span aria-hidden="true">⧉</span></button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></div><div class="contact-links"><a href="https://github.com/JBinayak">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/binayakgurubacharya">LinkedIn <span aria-hidden="true">↗</span></a><a href="downloads/Binayak_Gurubacharya_Resume.pdf" download>Download resume <small>PDF</small><span aria-hidden="true">↓</span></a></div></div></div></section>
+  </main>
+  <footer><div class="container"><div class="footer-main"><a href="#top" class="footer-brand">watermelon nerd<span class="accent">.</span></a><p>© 2026 Binayak Gurubacharya</p><a href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a></div><p class="credit">An evolving personal portfolio. Original Kards template by <a href="https://www.styleshout.com/">Styleshout</a>.</p></div></footer>
+</body>
+</html>
